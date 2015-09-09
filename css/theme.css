@@ -349,6 +349,23 @@ img#site-title {
 .progress .color4 span:before{
   border-color: #db3615 transparent transparent transparent;
 }
+
+.progress .color5 span:before{
+  border-color: #7F488C transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+  border-color: #D46A6A transparent transparent transparent;
+}
+
+.progress .color7 span:before{
+  border-color: #AA6C39 transparent transparent transparent;
+}
+
+.progress .color8 span:before{
+  border-color: #55AA55 transparent transparent transparent;
+}
+
 .specialties img {
 	margin-top:30px;
 	margin-bottom:50px;
