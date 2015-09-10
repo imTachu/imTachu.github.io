@@ -124,11 +124,11 @@ img {max-width: 100%;}
 	-moz-transition:all .5s;
 	-webkit-transition:all .5s;
 	transition:all .5s;
-		background:#111;
+	background:#111;
 }
 .isFixed {
 	background:#333;
-		-o-transition:all .5s;
+	-o-transition:all .5s;
 	-ms-transition:all .5s;
 	-moz-transition:all .5s;
 	-webkit-transition:all .5s;
@@ -194,6 +194,10 @@ header {
 }
 img#site-title {
 	max-width: 150px;
+}
+
+img#site-banner {
+	max-width: 240px;
 }
 
 .papers,.papers:before,.papers:after {
@@ -842,6 +846,16 @@ textarea.contact {
 .footer a,.footer a:hover {
 	color:#fff;
 }
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
 blockquote {
 	font-style:italic;
 	margin:0 0 0px 0;
